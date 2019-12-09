@@ -57,37 +57,17 @@
 
          <div class="bgrid-quarters s-bgrid-halves">
 
-           <div class="columns">
-              <h2>Clean & Modern.</h2>
+         <div class="entry-header align-center">
+            <h2>Clean & Modern.</h2>
+            <h2><?php thr_title(); ?></h2>
+         </div>
 
               <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
-              Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+              Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim rerum qui aut temporibus, est ipsam quia, iste doloremque blanditiis architecto error fugiat adipisci numquam recusandae nesciunt perferendis officia beatae alias!</span>
+              <span>Culpa perferendis accusantium blanditiis earum inventore nesciunt, tenetur officia unde fuga corporis nemo, similique ullam harum ipsa veniam tempore neque placeat fugiat molestias quasi alias ipsum. Aliquid fugiat necessitatibus distinctio?</span>
+              <span>Velit obcaecati aut nam quis, soluta laudantium culpa voluptatum saepe molestiae nemo, molestias officiis dolore. Beatae hic ad impedit quasi expedita provident, accusamus tempore dignissimos in esse. Porro, dicta, doloremque.</span>
+              <span>Possimus perferendis doloremque veritatis beatae facilis nisi praesentium ut eum, porro error, iste ipsa, eaque sed cum enim, reiciendis numquam. Harum beatae, dolor eaque autem magnam tenetur placeat cumque libero?
               </p>
-           </div>
-
-           <div class="columns">
-              <h2>Responsive.</h2>
-
-              <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
-              Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-              </p>
-           </div>
-
-           <div class="columns s-first">
-              <h2>HTML5 + CSS3.</h2>
-
-              <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
-              Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-              </p>
-           </div>
-
-           <div class="columns">
-              <h2>Free of Charge.</h2>
-
-              <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
-              Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-              </p>
-           </div>
 
            </div>
 

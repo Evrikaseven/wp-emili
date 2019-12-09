@@ -7,14 +7,13 @@
 
          <div class="twelve columns">
 
-            <ul class="footer-nav">
-					<li><a href="#">Home.</a></li>
-              	<li><a href="#">Blog.</a></li>
-              	<li><a href="#">Portfolio.</a></li>
-              	<li><a href="#">About.</a></li>
-              	<li><a href="#">Contact.</a></li>
-               <li><a href="#">Features.</a></li>
-			   </ul>
+            <nav class="footer-nav">
+                <?php wp_nav_menu( array(
+                  'theme_location' => 'down',
+                  'container'      => null,
+                  'menu_class'     => 'footer-menu',
+                )); ?>
+             </nav>
 
             <ul class="footer-social">
                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -26,8 +25,7 @@
             </ul>
 
             <ul class="copyright">
-               <li>Copyright &copy; 2014 Sparrow</li> 
-               <li>Design by <a href="http://www.styleshout.com/">Styleshout</a></li>               
+               <li>Copyright &copy; 2019 <?php bloginfo('name'); ?></li> 
             </ul>
 
          </div>

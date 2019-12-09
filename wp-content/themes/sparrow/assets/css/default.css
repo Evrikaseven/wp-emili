@@ -26,8 +26,8 @@ e. Others
 /* a. Webfonts and Icon fonts
  ------------------------------------------------------------------ */
 
-@import url("fonts.css");
-@import url("font-awesome/css/font-awesome.min.css");
+/*@import url("fonts.css");
+@import url("font-awesome/css/font-awesome.min.css");*/
 
 /* ------------------------------------------------------------------
 /* b. Reset
@@ -76,7 +76,7 @@ audio:not([controls]) {
 [hidden] { display: none; }
 
 code, kbd, pre, samp {
-   font-family: monospace, serif;
+   font-family: 'PT Sans', sans-serif;;
    font-size: 1em;
 }
 
@@ -139,10 +139,12 @@ html { font-size: 62.5%; }
 
 body {
    background: #fff;
-   font-family: notosans-regular, sans-serif;
+   /*font-family: notosans-regular, sans-serif;*/
+   font-family: 'PT Sans', sans-serif;
    font-size: 15px;
    line-height: 30px;
-	color: #838C95;
+	/*color: #838C95;*/
+   color: #333;
 
    -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 	-webkit-text-size-adjust: 100%;
