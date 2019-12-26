@@ -1,0 +1,177 @@
+
+/* ------------------------------------------------------------------ */
+/* c. Default and Basic Styles
+      Adapted from:
+      Skeleton CSS Framework - http://www.getskeleton.com/
+      Typeplate Typographic Starter Kit - http://typeplate.com/
+/* ------------------------------------------------------------------ */
+
+/*  1. Basic  ------------------------------------------------------- */
+
+*,
+*:before,
+*:after {
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+/*.nav-container{
+ background: url('images/nav_bg.jpg') repeat-x 0 0;
+}*/
+.f-nav{
+   z-index: 9999; 
+   position: fixed;
+   left: 0;
+   top: 0;
+    max-width: 960px;
+    /* width: 100%; */
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+} 
+ 
+.nav {
+   height: 42px;
+}
+.nav ul {
+   list-style: none;
+}
+.nav ul li{
+   float: left;
+   margin-top: 6px;
+   padding: 6px;
+   border-right: 1px solid #ACACAC;
+}
+.nav ul li:first-child{ padding-left: 0;}
+.nav ul li a { }
+.nav ul li a:hover{ text-decoration: underline;
+}
+.navbar{
+   background-color: rgba(255,255,255, 1);
+   box-shadow: 1px 2px 5px rgba(0,0,0,.34);
+   overflow: hidden;
+}
+.navbar a{
+  float:left;
+  display:block;
+  color:#f2f2f2;
+  text-align:center;
+  padding:14px 16px;
+  text-decoration:none;
+  font-size:17px;
+}
+
+.navbar ul{
+  margin:8px 0 0 0;
+  list-style:none;
+}
+
+.navbar a:hover{
+  background-color:#ddd;
+  color:#000;
+}
+
+/*.dropdown:hover .dropdown-menu {
+    display: block;
+}*/
+/*.dropdown > .dropdown-toggle:active {
+    pointer-events: none;
+}*/
+
+*{
+   font-family: 'Roboto', sans-serif;
+}
+body{
+   margin: 0%;
+   padding: 0%;
+   min-height: 75rem;
+   padding-top: 5.4rem;
+   /*background-color: rgba(0,0,0,0.059);*/
+}
+.outer-panel{
+/* width: 60%;*/
+   padding: 0% 5%;
+
+}
+.inner-panel {
+   /*background-color: rgba(255,255,255, 0.55);*/
+   /*box-shadow: 1px 2px 5px rgba(0,0,0,.34);*/
+}
+p{
+   font-size: 14px;
+}
+.i-img{
+   background-color: #7ecef2;
+}
+button{
+   font-size: 13px !impotant;
+}
+.phone{
+   font-size: 29px;
+}
+.footer-call{
+   width: 90%;
+}
+.circle{
+   width: 40px;
+   height: 40px;
+   border-radius: 100px;
+   margin: 2%;
+   border: 1px solid rgba(0,0,0,.55);
+   text-align: center;
+   padding-top: 12px;
+}
+@media only screen and (min-width : 320px) and (max-width : 761px){
+   .outer-panel{
+      width: 100%;
+      padding: 0% 3%;
+   }
+   .title-text{
+      padding-top: 10%;
+   }
+   .circle{
+      border: 0px;
+   }
+   .glassangle {
+    display: none;
+   }
+}
+.list-group-item.active {
+    background-color: #007fbe;
+    border-color: #007fbe;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #007fbe;
+}
+/*footer {
+    background: url('../images/footer-bg.jpg');
+    background-color: transparent;
+}*/
+#revprev {
+    /*height: 100px;*/
+    background: #f7f6f5;
+}
+.glassangle {
+    position: absolute;
+    left: 50%;
+    top: 0.0rem;
+    z-index: 0;
+    height: 599px;
+    margin-left: 8px;
+    width: 1000%;
+    background: rgba(255, 255, 255, 0.8);
+    -webkit-transform: skew(-33deg);
+    transform: skew(-33deg);
+}
+.clientele {
+    margin: 0 auto;
+    position: absolute;
+    height: 100%;
+        display: block;
+        position: absolute;
+    left: 50%;
+    top: 0.0rem;
+}
